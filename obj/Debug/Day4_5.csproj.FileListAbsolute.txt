@@ -1,0 +1,6 @@
+C:\LASTSemesterCshap\basicPractice\Day4_5_Solu\Day4_5\bin\Debug\Day4_5.exe.config
+C:\LASTSemesterCshap\basicPractice\Day4_5_Solu\Day4_5\bin\Debug\Day4_5.exe
+C:\LASTSemesterCshap\basicPractice\Day4_5_Solu\Day4_5\bin\Debug\Day4_5.pdb
+C:\LASTSemesterCshap\basicPractice\Day4_5_Solu\Day4_5\obj\Debug\Day4_5.csprojResolveAssemblyReference.cache
+C:\LASTSemesterCshap\basicPractice\Day4_5_Solu\Day4_5\obj\Debug\Day4_5.exe
+C:\LASTSemesterCshap\basicPractice\Day4_5_Solu\Day4_5\obj\Debug\Day4_5.pdb

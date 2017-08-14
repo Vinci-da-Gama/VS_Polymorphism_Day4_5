@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{15357D5F-5C8B-463B-BE72-9DD84BFBA515}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Day4_5</RootNamespace>
+    <AssemblyName>Day4_5</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Auto.cs" />
+    <Compile Include="ExecuteRemoveNRemoveAt.cs" />
+    <Compile Include="Interfaces\IPrintable.cs" />
+    <Compile Include="Interfaces\IProducts.cs" />
+    <Compile Include="loopItems.cs" />
+    <Compile Include="S5InterfaceClasses\AutoCar.cs" />
+    <Compile Include="S5InterfaceClasses\Book.cs" />
+    <Compile Include="S5InterfaceClasses\ExecuteInterfaceList.cs" />
+    <Compile Include="S5InterfaceClasses\toy.cs" />
+    <Compile Include="S5Products.cs" />
+    <Compile Include="S5AutoMobile.cs" />
+    <Compile Include="S5Books.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="S4Agenct.cs" />
+    <Compile Include="S4Assets.cs" />
+    <Compile Include="S4Personal.cs" />
+    <Compile Include="S4PrintInfo.cs" />
+    <Compile Include="S5Solu\Execute_S5solu.cs" />
+    <Compile Include="S5Solu\Food.cs" />
+    <Compile Include="S5Solu\Fruit.cs" />
+    <Compile Include="S5Solu\IDisplayable.cs" />
+    <Compile Include="S5Solu\Meat.cs" />
+    <Compile Include="S5Solu\Vege.cs" />
+    <Compile Include="Trunk.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
